@@ -1,0 +1,62 @@
+{
+  "flights": [
+    {
+      "flightId": "AI101",
+      "from": "New York",
+      "to": "London",
+      "date": "2026-05-10",
+      "time": "10:00 AM"
+    },
+    {
+      "flightId": "AI202",
+      "from": "London",
+      "to": "Paris",
+      "date": "2026-05-12",
+      "time": "02:00 PM"
+    }
+  ],
+  "passengers": [
+    {
+      "passengerId": "P001",
+      "name": "John Doe",
+      "age": 30,
+      "passport": "A12345678"
+    },
+    {
+      "passengerId": "P002",
+      "name": "Jane Smith",
+      "age": 25,
+      "passport": "B87654321"
+    }
+  ],
+  "tickets": [
+    {
+      "ticketId": "T101",
+      "flightId": "AI101",
+      "passengerId": "P001",
+      "seat": "12A",
+      "class": "Economy"
+    },
+    {
+      "ticketId": "T102",
+      "flightId": "AI202",
+      "passengerId": "P002",
+      "seat": "5B",
+      "class": "Business"
+    }
+  ],
+  "baggage": [
+    {
+      "baggageId": "B101",
+      "ticketId": "T101",
+      "weight": 20,
+      "type": "Checked"
+    },
+    {
+      "baggageId": "B102",
+      "ticketId": "T102",
+      "weight": 10,
+      "type": "Carry-on"
+    }
+  ]
+}

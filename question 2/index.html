@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Online Store</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://placehold.co/300x200/orange/white?text=Wireless+Headphones+%E2%82%B94999" alt="Wireless Headphones" onclick="showDescription('Wireless Headphones', 'High-quality wireless headphones with noise cancellation and 20-hour battery life. Price: ₹4999')">
+                <h3>Wireless Headphones</h3>
+                <p class="price">₹4999</p>
+                <p class="category">Electronics</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://placehold.co/300x200/blue/white?text=Running+Sneakers+%E2%82%B97499" alt="Running Sneakers" onclick="showDescription('Running Sneakers', 'Lightweight and comfortable running shoes with breathable mesh upper. Price: ₹7499')">
+                <h3>Running Sneakers</h3>
+                <p class="price">₹7499</p>
+                <p class="category">Fashion</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://placehold.co/300x200/green/white?text=Smart+Watch+%E2%82%B910999" alt="Smart Watch" onclick="showDescription('Smart Watch', 'Feature-rich smartwatch with heart rate monitor, GPS, and water resistance. Price: ₹10999')">
+                <h3>Smart Watch</h3>
+                <p class="price">₹10999</p>
+                <p class="category">Electronics</p>
+            </div>
+
+            <div class="product-card">
+                <img src="https://placehold.co/300x200/purple/white?text=Travel+Backpack+%E2%82%B93799" alt="Travel Backpack" onclick="showDescription('Travel Backpack', 'Durable 40L travel backpack with laptop compartment and anti-theft pockets. Price: ₹3799')">
+                <h3>Travel Backpack</h3>
+                <p class="price">₹3799</p>
+                <p class="category">Accessories</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>My Online Store. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showDescription(productName, description) {
+            alert(productName + "\n\n" + description);
+        }
+    </script>
+</body>
+</html>

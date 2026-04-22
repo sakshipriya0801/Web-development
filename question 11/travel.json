@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "userId": "U101",
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "phone": "9876543210"
+    },
+    {
+      "userId": "U102",
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "phone": "8765432109"
+    }
+  ],
+  "trips": [
+    {
+      "tripId": "T201",
+      "userId": "U101",
+      "destination": "Paris",
+      "startDate": "2026-07-10",
+      "endDate": "2026-07-20"
+    },
+    {
+      "tripId": "T202",
+      "userId": "U102",
+      "destination": "Tokyo",
+      "startDate": "2026-08-05",
+      "endDate": "2026-08-15"
+    }
+  ],
+  "hotels": [
+    {
+      "hotelId": "H301",
+      "name": "Grand Paris Hotel",
+      "location": "Paris",
+      "pricePerNight": 150
+    },
+    {
+      "hotelId": "H302",
+      "name": "Tokyo Garden Inn",
+      "location": "Tokyo",
+      "pricePerNight": 120
+    }
+  ],
+  "flights": [
+    {
+      "flightId": "F401",
+      "tripId": "T201",
+      "airline": "Air France",
+      "from": "New York",
+      "to": "Paris",
+      "date": "2026-07-10",
+      "price": 600
+    },
+    {
+      "flightId": "F402",
+      "tripId": "T202",
+      "airline": "Japan Airlines",
+      "from": "Los Angeles",
+      "to": "Tokyo",
+      "date": "2026-08-05",
+      "price": 850
+    }
+  ]
+}

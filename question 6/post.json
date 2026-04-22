@@ -1,0 +1,12 @@
+{
+  "postId": 101,
+  "user": "alice_smith",
+  "content": "Just finished my first marathon! It was tough but totally worth it.",
+  "likes": 245,
+  "comments": [
+    "Congratulations, Alice!",
+    "So proud of you!",
+    "What was your time?",
+    "Inspiring! I need to start running too."
+  ]
+}

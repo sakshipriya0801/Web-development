@@ -1,0 +1,67 @@
+{
+  "teams": [
+    {
+      "teamId": "T1",
+      "name": "Thunder Strikers",
+      "captain": "Alex Johnson"
+    },
+    {
+      "teamId": "T2",
+      "name": "Royal Knights",
+      "captain": "Michael Brown"
+    },
+    {
+      "teamId": "T3",
+      "name": "Panther Warriors",
+      "captain": "Chris Davis"
+    },
+    {
+      "teamId": "T4",
+      "name": "Falcon Eagles",
+      "captain": "David Wilson"
+    }
+  ],
+  "matches": [
+    {
+      "matchId": "M1",
+      "team1": "T1",
+      "team2": "T2",
+      "date": "2026-06-15",
+      "venue": "City Stadium"
+    },
+    {
+      "matchId": "M2",
+      "team1": "T3",
+      "team2": "T4",
+      "date": "2026-06-16",
+      "venue": "Town Ground"
+    },
+    {
+      "matchId": "M3",
+      "team1": "T1",
+      "team2": "T3",
+      "date": "2026-06-20",
+      "venue": "City Stadium"
+    }
+  ],
+  "scores": [
+    {
+      "matchId": "M1",
+      "team1Score": 3,
+      "team2Score": 1,
+      "winner": "T1"
+    },
+    {
+      "matchId": "M2",
+      "team1Score": 2,
+      "team2Score": 2,
+      "winner": "Draw"
+    },
+    {
+      "matchId": "M3",
+      "team1Score": 0,
+      "team2Score": 1,
+      "winner": "T3"
+    }
+  ]
+}
