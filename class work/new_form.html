@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+            padding: 20px;
+        }
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+        form {
+            background-color: white;
+            padding: 30px;
+            width: 500px;
+            margin: 0 auto;
+            border: 2px solid blue;
+        }
+        fieldset {
+            border: 1px solid gray;
+            padding: 20px;
+        }
+        legend {
+            color: blue;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="number"], input[type="tel"], select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 15px 0;
+            border: 1px solid #ccc;
+        }
+        .btn {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .btn-reset {
+            background-color: gray;
+        }
+        .btn:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Employee Registration</h1>
+
+    <form action="emp_form.html" method="post">
+        <fieldset>
+            <legend>Fresh Registration</legend>
+            
+            <label>Full Name:</label><br>
+            <input type="text" name="fullname" placeholder="Enter your name" required><br>
+            
+            <label>Date of Birth:</label><br>
+            <input type="date" name="dob" required><br>
+            
+            <label>Email Address:</label><br>
+            <input type="email" name="email" placeholder="example@email.com" required><br>
+            
+            <label>Password:</label><br>
+            <input type="password" name="password" required><br>
+            
+            <label>Mobile Number:</label><br>
+            <input type="tel" name="mobile" placeholder="10 digit number" required><br>
+            
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="others"> Others<br><br>
+            
+            <label>Department:</label><br>
+            <input type="text" name="department" required><br>
+            
+            <label>Skills:</label><br>
+            <input type="checkbox" name="skills" value="Data Science"> Data Science<br>
+            <input type="checkbox" name="skills" value="Programming"> Programming<br>
+            <input type="checkbox" name="skills" value="Management"> Management<br><br>
+            
+            <label>Address:</label><br>
+            <textarea name="address" rows="3" cols="40" required></textarea><br>
+            
+            <label>City:</label><br>
+            <select name="city" required>
+                <option value="">Select City</option>
+                <option value="pune">Pune</option>
+                <option value="ranchi">Ranchi</option>
+                <option value="nagpur">Nagpur</option>
+                <option value="mumbai">Mumbai</option>
+            </select><br><br>
+            
+            <button type="submit" class="btn">Register</button>
+            <button type="reset" class="btn btn-reset">Reset</button>
+            
+        </fieldset>
+    </form>
+
+</body>
+</html>

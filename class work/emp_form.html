@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   <link rel="stylesheet" href="emp_form.css">
+    
+</head>
+<body>
+
+    <h1>Employee Registration</h1>
+    <div class="myform">
+        <form action="emp_form.html"  onsubmit="return validateForm()">
+            <fieldset>
+                <legend>Fresh Registration</legend>
+                
+                <div class="form-group">
+                    <label>Full Name:</label><br>
+                    <input type="text" id="name" class="form-control" name="fullname" placeholder="Enter your name" >
+                </div>
+                     
+                <div class="form-group">
+                    <label>Date of Birth:</label><br>
+                    <input type="date" class="form-control" name="dob" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Email Address:</label><br>
+                    <input type="email" id="email" class="form-control" name="email" placeholder="e-mail" >
+                </div>
+
+                <div class="form-group">
+                    <label>Password:</label><br>
+                    <input type="password" class="form-control" name="password" required>
+                </div>
+ 
+                <div class="form-group">
+                    <label>Mobile Number:</label><br>
+                    <input type="number" class="form-control" name="mobile" placeholder="mobile number" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Gender:</label><br>
+                    <input type="radio" name="gender" value="male"> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="others"> Others<br>
+                </div>
+
+                <div class="form-group">
+                    <label>Department:</label><br>
+                    <input type="text" class="form-control" name="department" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Skills:</label><br>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="skills" value="Data Science">
+                        <label class="form-check-label">Data Science</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="skills" value="Programming">
+                        <label class="form-check-label">Programming</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="skills" value="Management">
+                        <label class="form-check-label">Management</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Address:</label><br>
+                    <textarea class="form-control" name="address" rows="3" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>City:</label><br>
+                    <select class="form-select" name="city" required>
+                        <option value="">select</option>
+                        <option value="pune">pune</option>
+                        <option value="ranchi">ranchi</option>
+                        <option value="nagpur">nagpur</option>
+                        <option value="mumbai">mumbai</option>
+                    </select>
+                </div>
+
+                <br>
+                <button onclick="showRegister()"  type="submit" class="btn btn-primary">Register</button>
+                <button onclick="showMessage()" type="reset" class="btn btn-secondary">Reset</button>
+                
+            </fieldset>
+        </form>
+    </div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="emp_form.js"></script>  
+    
+</body>
+</html>
