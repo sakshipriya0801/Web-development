@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+h1 {
+  color: #2c3e50;
+}
+
+h3 {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 60%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table header */
+th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+}
+
+/* Table cells */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Zebra striping */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Remove unnecessary default styles */
+.App-logo {
+  display: none;
+}
+
+.App-header {
+  background: none;
+  min-height: auto;
+  color: black;
+}
+
+.App-link {
+  display: none;
+}
